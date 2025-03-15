@@ -155,7 +155,8 @@ if(Skia IN_LIST iPlug2_FIND_COMPONENTS)
         "${sdk}/libskparagraph.a"
         "${sdk}/libsksg.a"
         "${sdk}/libskshaper.a"
-        "${sdk}/libskunicode.a"
+        "${sdk}/libskunicode_core.a"
+        "${sdk}/libskunicode_icu.a"
         "${sdk}/libsvg.a"
     )
   endif()
